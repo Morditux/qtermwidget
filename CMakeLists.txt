@@ -2,8 +2,8 @@ cmake_minimum_required( VERSION 2.8 )
 
 project(qtermwidget)
 
-option(BUILD_DESIGNER_PLUGIN "Build Qt4 designer plugin" ON)
-option(USE_QT5 "Build using Qt5. Default OFF." OFF)
+option(BUILD_DESIGNER_PLUGIN "Build Qt5 designer plugin" OFF)
+option(USE_QT5 "Build using Qt5. Default OFF." ON)
 option(BUILD_TEST "Build test application. Default OFF." OFF)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake")
