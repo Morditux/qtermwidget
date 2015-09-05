@@ -3,8 +3,7 @@ but it took its own direction later.
 The main goal of this project is to provide unicode-enabled, embeddable
 Qt widget for using as a built-in console (or terminal emulation widget).
 
-
-Current maintainer: Petr Vanek <petr@yarpen.cz>
+Forked from qterminal/qtermwidget
 License: GPLv2+
 
 
